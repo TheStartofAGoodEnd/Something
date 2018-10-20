@@ -109,9 +109,9 @@ Objects:
 	- Diferente way off clonning an object - Object.assign(clone, obj); It copys obj properties and values to clone.
 Reachability - You need to be carefull because if a global variables is connected with some properties and the properties are all connected with themselfs, if you remove the main connection everything stops working;
 Symbols - You can create a symbol by typing Symbol("Descripton that you want") it is used to hide porperties and symbols are special because to diferente symbols can have both the same name. Symbol.for() is used to create symbols with the vairable properties so now you can't have diferente symbols with the same name. Symbol.keyFor(variable) it is used to see the descreption of the symbol (needs to be global symbol);
-This - It is used to access the object, a method can use the this keyword. It's usefull because if you clone the object it won't work if you did use the name of the object, so it's better to use this instead;
+This - It is used to access the object, a method can use the this keyword. It's usefull because if you clone the object it won't work if you did use the name of the object, so it's better to use this instead. You can use it to create a variable that is common in all the properties of the object (usefull when working with functions);
 DO IT, JUST DO IT:
-http://javascript.info/object-methods LASTS TWO TASKS
+http://javascript.info/object-toprimitive LASTS TWO TASKS
 
 
 
