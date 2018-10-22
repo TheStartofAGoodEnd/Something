@@ -107,13 +107,13 @@ Objects:
 	- If you compare an empty object that is stored in diferente variables it is equal, but if you have two diferente empty objects in diferente variables they are not equal;
 	- To clone an object - let clone = {}; for (let key in user) { clone[key] = obj[key] };
 	- Diferente way off clonning an object - Object.assign(clone, obj); It copys obj properties and values to clone.
+	- Multiple objects - You can create multiple objects with this syntax, function User(name) {this.properties}; let user = new User("Jack");  
 Reachability - You need to be carefull because if a global variables is connected with some properties and the properties are all connected with themselfs, if you remove the main connection everything stops working;
 Symbols - You can create a symbol by typing Symbol("Descripton that you want") it is used to hide porperties and symbols are special because to diferente symbols can have both the same name. Symbol.for() is used to create symbols with the vairable properties so now you can't have diferente symbols with the same name. Symbol.keyFor(variable) it is used to see the descreption of the symbol (needs to be global symbol);
 This - It is used to access the object, a method can use the this keyword. It's usefull because if you clone the object it won't work if you did use the name of the object, so it's better to use this instead. You can use it to create a variable that is common in all the properties of the object (usefull when working with functions);
-
+Constructor functions - They are used to make your work easier they can simplify for example the object creation as I mentioned earlier but the syntax difference is that they need to have a capital letter in the name of the function, and objects when created they need to come with new Something;
 DO IT, JUST DO IT:
-http://javascript.info/constructor-new
-
+http://javascript.info/primitives-methods
 
 
 Important shit!
