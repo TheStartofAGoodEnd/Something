@@ -55,6 +55,7 @@ Comparisons:
 	- == or ===- Equal sign;
 	- != or !== - Diferent sign.
 alert(); - This shows a message and pauses the script until the user click in the "OK";
+.toUpperCase(); - It is used to put a string in capital letters;
 prompt(tittle, default); - This shows a text message and a white box that can be used to type. The title is the message and the defualt is the first thing that will apear in the white box.
 comfirm(); - This shows a message with two buttons OK and Cancel, and if you click on them the answer to the message will be true if you click on OK and false if you click on Cancel.
 if statement if (variable === 2015) {} - It is used to check the value of something depending on what you want and if the value has the relashion that you want the code in the if will be read;
@@ -93,7 +94,7 @@ Debugging:
 	- The pause buttom - Enable/Disable automatic pause in case of an error, you can see in detail what make the script stop;
 	- console.log(); - It is used to output something in to the console.
 Objects:
-	- They are used to store whatever amount of data that you want, they store data in form off properties that have a name and a value, example, "key: value", key is the name off the property and value is the value inside key;
+	- They are used to store whatever amount of data that you want, they store data in form off properties that have a name and a value, example, "key: value", key is the name off the property and value is the value inside key. Function are objects to;
 	- Syntaxe - The constructor one, let obj = new Object(); or the literal one, let obj = {}; 
 	- To read properties - obj.propertyName;
 	- To add properties - obj.propertyName = "Jhon";
@@ -112,8 +113,27 @@ Reachability - You need to be carefull because if a global variables is connecte
 Symbols - You can create a symbol by typing Symbol("Descripton that you want") it is used to hide porperties and symbols are special because to diferente symbols can have both the same name. Symbol.for() is used to create symbols with the vairable properties so now you can't have diferente symbols with the same name. Symbol.keyFor(variable) it is used to see the descreption of the symbol (needs to be global symbol);
 This - It is used to access the object, a method can use the this keyword. It's usefull because if you clone the object it won't work if you did use the name of the object, so it's better to use this instead. You can use it to create a variable that is common in all the properties of the object (usefull when working with functions);
 Constructor functions - They are used to make your work easier they can simplify for example the object creation as I mentioned earlier but the syntax difference is that they need to have a capital letter in the name of the function, and objects when created they need to come with new Something;
+Primitive - There are 6 types of primitives: string, number, boolean, symbol, null and undefined.
+Numbers - 
+	- Instead of writing a number with 10 zeros we can write 7e10; 
+	- Hexadecimal - It is used a lot to write colours;
+	- ..toString(n) - It converts the number into a string. N determinates the number base it can be 16 (hexadecial), 2 (binary) and 36 (a to Z and A to Z and the latin alphabet);
+	- Math.floor - It rounds down every decimal part;
+	- Math.ceil - It rounds up every decimal part;
+	- Math.round - It rounds to the nearest integer;
+	- Math.trund - It removes every thing from the decimal part without rounding;
+	- .toFixed(n); - It is used to round a number to the given precision; 
+	- Infinity - It is the greatest value of numbers;
+	- NaN - It is a representation of "not a number";
+	- isNaN() - It is used to convert something to a number and then check if it is equal to NaN;
+	- isInfinity() - It convertes numbers that are in strings and it compare to check if is a number after converting;
+	- parseInt() - It convertes anything to a number and remove every thing that is not a number and decimal parts (First digit can't be a letter);
+	- parseFloat() - It convertes anything to a number and remove every thing that is not a number (First digit can't be a letter);
+	- Math.random() - It return a random number from 0 to 1, not including 1;
+	- Math.max(a,b,...) or Math.min(a,b,...) - It return the greates or the smallest value from the given numbers;
+	- Math.pow(a, b) - It raises a to the given power;
 DO IT, JUST DO IT:
-http://javascript.info/primitives-methods
+http://javascript.info/number#parseint-and-parsefloat TASKS
 
 
 Important shit!
