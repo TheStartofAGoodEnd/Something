@@ -133,7 +133,7 @@ Numbers -
 	- Math.max(a,b,...) or Math.min(a,b,...) - It return the greates or the smallest value from the given numbers;
 	- Math.pow(a, b) - It raises a to the given power;
 DO IT, JUST DO IT:
-http://javascript.info/number#parseint-and-parsefloat TASKS
+http://javascript.info/string
 
 
 Important shit!
