@@ -169,3 +169,11 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 Books to read about hacking:
 Metasploit - https://drive.google.com/file/d/0B5kcDDBESO11Z1hhZGtxeVZQX1k/view
 Kali Linux - https://kali.training/downloads/Kali-Linux-Revealed-1st-edition.pdf
+
+Hacker Glossary:
+- Black Hat - It is an hacker that violates computer security for maliciousness or for his own personal gain;
+- White Hat - It is an ethical hacker, someone that ensures the security of an organization's information systems;
+- Gray Hat - It is an hacker that will break the lae in the pursuit of a hack, but does not do so maliciously or for personal gain;
+- Exploit - It is a piece of software that takes advantage of a bug or vulnerability to cause unintended or unanticipated behaviour to occur on computer software, hardware or something electronic;
+- FireWall - A system using hardware, software, or both to prevent unauthorized access to a system or machne;
+- Vulnerability - A weak spot hackers can exploit to gain access to a machine;
