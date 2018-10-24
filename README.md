@@ -39,7 +39,7 @@ Bitwise operators:
 	- && - And;
 	- || - Or;
 	- ^ - Xor;
-	- ~ - Not;
+	- ~ - Not (Converts into binary code);
 	- << - Left sign;
 	- >> - Right sign;
 	- >>> - Zero-fill right shift;
@@ -132,8 +132,25 @@ Numbers -
 	- Math.random() - It return a random number from 0 to 1, not including 1;
 	- Math.max(a,b,...) or Math.min(a,b,...) - It return the greates or the smallest value from the given numbers;
 	- Math.pow(a, b) - It raises a to the given power;
+String - The textual data in JavaScript is stored in strings.
+	- You can use different types of quotes "" or '' and `` to embed something in a string;
+	- string.length - It can be used to know the size of the string that you want;
+	- string[position] - It is used to check which letter is in that position in that string, the counting starts in zero;
+	- let string of "Hello" - It is used in a loop to go for all the letter of the string;
+	- "string".toLowerCase() "string".toUpperCase() - They are used to put all the string in lower case or in upper case. string[position].toUpperCase;
+	- "string".includes("shorter string") - It checks for the shorter string in the string;
+	- "string".startsWith("short string") - It checks for the shorter string in the beginning;
+	- "string".endsWith("short string") - It checks for the shorter string in the beginning;
+	- "string".slice(startpostion, endposition) - It is used to cut the interval of characters that you want in the string;
+	- "string".substring(startpostion, endposition) - It is used to extract the interval of the string that you want;
+	- "string".substr(startpostion, length) - It is used to extract the interval of the string that you want;
+	- LowerCase characters have greater value then UpperCase characters;
+	- "character".codePointAt(0) - It is used to see the position of the character in JavaScript;
+	- string.fromCodePoint(90) - It creates a character of the given position;
+	- "string".trim() - It remove any spaces from the beginning and from the end;
+	- "string".repeat() - It repeats the string n times;
 DO IT, JUST DO IT:
-http://javascript.info/string
+http://javascript.info/string TASKS
 
 
 Important shit!
