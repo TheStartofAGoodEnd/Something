@@ -137,7 +137,7 @@ String - The textual data in JavaScript is stored in strings.
 	- string.length - It can be used to know the size of the string that you want;
 	- string[position] - It is used to check which letter is in that position in that string, the counting starts in zero;
 	- let string of "Hello" - It is used in a loop to go for all the letter of the string;
-	- "string".toLowerCase() "string".toUpperCase() - They are used to put all the string in lower case or in upper case. string[position].toUpperCase;
+	- "string".toLowerCase() "string".toUpperCase() - They are used to put all the string in lower case or in upper case. string[position].toUpperCase() - It is used to put only one letter or only an interval of letters in UpperCase or LowerCase;
 	- "string".includes("shorter string") - It checks for the shorter string in the string;
 	- "string".startsWith("short string") - It checks for the shorter string in the beginning;
 	- "string".endsWith("short string") - It checks for the shorter string in the beginning;
@@ -150,7 +150,7 @@ String - The textual data in JavaScript is stored in strings.
 	- "string".trim() - It remove any spaces from the beginning and from the end;
 	- "string".repeat() - It repeats the string n times;
 DO IT, JUST DO IT:
-http://javascript.info/string TASKS
+http://javascript.info/array
 
 
 Important shit!
