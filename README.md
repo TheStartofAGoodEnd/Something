@@ -132,6 +132,7 @@ Numbers -
 	- Math.random() - It return a random number from 0 to 1, not including 1;
 	- Math.max(a,b,...) or Math.min(a,b,...) - It return the greates or the smallest value from the given numbers;
 	- Math.pow(a, b) - It raises a to the given power;
+	- Math.max(value1, value2, ...) - It checks in a certain interval of numbers for the biggest one.
 String - The textual data in JavaScript is stored in strings.
 	- You can use different types of quotes "" or '' and `` to embed something in a string;
 	- string.length - It can be used to know the size of the string that you want;
@@ -170,7 +171,7 @@ Array - It is a collection of ordered data, the difference between array and obj
 									[7, 8, 9]];
 	- 
 DO IT, JUST DO IT:
-http://javascript.info/array LAST TASK
+http://javascript.info/array-methods
 
 
 Important shit!
