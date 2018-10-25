@@ -148,9 +148,29 @@ String - The textual data in JavaScript is stored in strings.
 	- "character".codePointAt(0) - It is used to see the position of the character in JavaScript;
 	- string.fromCodePoint(90) - It creates a character of the given position;
 	- "string".trim() - It remove any spaces from the beginning and from the end;
-	- "string".repeat() - It repeats the string n times;
+	- "string".repeat() - It repeats the string n times.
+Array - It is a collection of ordered data, the difference between array and objects is that an objects don't have positions to the elements. Arrays are objects but different types of objects, so if you want to copy the array you will need to do exactly equal to the objects;
+	- Array sysntaxes - There are two different ways to create an array, let arr = new Array(); and let arr = [];
+	- Every element in the Array have a position that stars in zero;
+	- You can call an Array element by his position array[1];
+	- You can replace an element for another array[1] = "Fibonacci" or if that position doesn't have any element it will add it array[10] = "Mathematics";
+	- You can see the length of an Array by this fruits.length;
+	- If you alert an array it will show every element from it;
+	- Arrays can store elements from any type;
+	- After eatch element in an Array you should put a comma like in objects;
+	- You can remove elements from an Array and this syntax will remove it and show it and then doesn't show in the array anymore .pop();
+	- You can add an element to the end of an Array .push(), this is equal to array[array.length] = ;
+	- You can remove the first element of an Array .shift();
+	- You can add an element to the first position of the array .unshift();
+	- The .push() and the .unshift() and both add multiple new elements;
+	- Arrays have a different syntax to the loop which is for (let elements of array) alert(elements);
+	- You can cut the array if you add the less length to the array example, array.length = 1; imagine that array had 6 length then I changed that and now it has one so every element from 6 to 1 is not longer in the array;
+	- You can create a multidimensional array example, let array = [[1, 2, 3],	to access you can do it alert(array[1][1]);
+									[4, 5, 6],
+									[7, 8, 9]];
+	- 
 DO IT, JUST DO IT:
-http://javascript.info/array
+http://javascript.info/array LAST TASK
 
 
 Important shit!
