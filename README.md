@@ -169,9 +169,23 @@ Array - It is a collection of ordered data, the difference between array and obj
 	- You can create a multidimensional array example, let array = [[1, 2, 3],	to access you can do it alert(array[1][1]);
 									[4, 5, 6],
 									[7, 8, 9]];
-	- 
+	- delete array[1] - It will delete the value of the property "1" but it won't remove the property so if you have an array with four elements and you delete a value of a property it will steal have 4 of length;
+	- array.splice(start, howManyElementsWillBeDeleted, elementToBeAdded1, elementToBeAdded2,...) - It removes the number of elements that you want from a starting element and it add elements in the position that the others where removed;
+	- array.slice(start, end) - It will copy the elements from strings/arrays and will alert them out;
+	- array.concat([element1,...]) - It will add the array as much elements as you want. This only works with objects if you add the following property [Symbol.isConcatSpreadable]: true, with that property now all the properties from the object will be added next to the array;
+	- array.IndexOf(item, from) - It will search for the item and starting in from, if it doesn't found the item it will return -1;
+	- array. lastIndexOf(item, from) - Same as IndexOf but it starts searching from right to left;
+	- array.includes(item, from) - Same thing as IndexOf but if it is found it will return true;
+	- array.find(function(element, index, array) { } ) - It will search for an element in the array until it find it, when it does will return true;
+	- array.map(function(item, index, array) {} ) - It calls the function for each element of the array and returns the array of results;
+	- array.sort(); - It will reorder the elements of the array after converting them to strings so it won't be in the corrrect order in numeric terms sometimes;
+	- array.reverse(); - It will reverse the order of the elements from the array;
+	- str.split(', '); - It will split the string in two and alert the part that doesn't have the comma. It is used when you want to alert something that was written by somenone else but you don't know if they will put a comma or not;
+	- array.join(';'); - It will put every element together but separated by a semi colloum;
+	- Array.isArray(value) - It will check if the value is an array or not, if it is it will return true if not false.
+
 DO IT, JUST DO IT:
-http://javascript.info/array-methods
+http://javascript.info/iterable
 
 
 Important shit!
