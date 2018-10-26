@@ -205,6 +205,11 @@ Books to read about hacking:
 Metasploit - https://drive.google.com/file/d/0B5kcDDBESO11Z1hhZGtxeVZQX1k/view
 Kali Linux - https://kali.training/downloads/Kali-Linux-Revealed-1st-edition.pdf
 
+Websites about hacking:
+http://overthewire.org/
+https://picoctf.com/
+https://www.hackthebox.eu/
+
 Hacker Glossary:
 - Black Hat - It is an hacker that violates computer security for maliciousness or for his own personal gain;
 - White Hat - It is an ethical hacker, someone that ensures the security of an organization's information systems;
