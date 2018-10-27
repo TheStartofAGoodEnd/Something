@@ -185,10 +185,30 @@ Array - It is a collection of ordered data, the difference between array and obj
 	- Array.isArray(value) - It will check if the value is an array or not, if it is it will return true if not false.
 	- object[Symbol.itenerate] - It is used to allow an object to get for...of looped;
 	- let array = Array.from(object); - Array.from(obj) Is used to copy all the properties from the bject into an array. An iterator must have the method named next() that returns an object {done: Boolean, value: any}, here done:true denotes the iteration end, otherwise the value is the next value.
-	- 
-	
+Map - Is a collection of keyed data items, just like an Object, but the main difference is that Map allows keys of any type. To create a map, let map = new Map(). When a map is looped it goes from the order of creation, which is the oposite in relashion to objects;
+	- map.set(key, value) – stores the value by the key;
+	- map.get(key) – returns the value by the key, undefined if key doesn’t exist in map.
+	- map.has(key) – returns true if the key exists, false otherwise;
+	- map.delete(key) – removes the value by the key;
+	- map.clear() – clears the map;
+	- map.size – returns the current element count;
+	- new Map(Object.entries({})); - It creates keys and values for them right next of map;
+	- map.keys() – returns an iterable for keys;
+	- map.values() – returns an iterable for values;
+	- map.entries() – returns an iterable for entries [key, value], it’s used by default in for..of.
+Set - Is a collection of values, where each value may occur only once. You can't have a repeated value in set;
+	- new Set(iterable) – creates the set, optionally from an array of values (any iterable will do);
+	- set.add(value) – adds a value, returns the set itself;
+	- set.delete(value) – removes the value, returns true if value existed at the moment of the call, otherwise false;
+	- set.has(value) – returns true if the value exists in the set, otherwise false;
+	- set.clear() – removes everything from the set;
+	- set.size – is the elements count;
+	- Set can be looped with the for...of loop;
+	- set.keys() – returns an iterable object for values,
+	- set.values() – same as set.keys, for compatibility with Map,
+	- set.entries() – returns an iterable object for entries [value, value], exists for compatibility with Map
 DO IT, JUST DO IT:
-http://javascript.info/map-set-weakmap-weakset
+
 
 
 Important shit!
