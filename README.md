@@ -183,9 +183,12 @@ Array - It is a collection of ordered data, the difference between array and obj
 	- str.split(', '); - It will split the string in two and alert the part that doesn't have the comma. It is used when you want to alert something that was written by somenone else but you don't know if they will put a comma or not;
 	- array.join(';'); - It will put every element together but separated by a semi colloum;
 	- Array.isArray(value) - It will check if the value is an array or not, if it is it will return true if not false.
-
+	- object[Symbol.itenerate] - It is used to allow an object to get for...of looped;
+	- let array = Array.from(object); - Array.from(obj) Is used to copy all the properties from the bject into an array. An iterator must have the method named next() that returns an object {done: Boolean, value: any}, here done:true denotes the iteration end, otherwise the value is the next value.
+	- 
+	
 DO IT, JUST DO IT:
-http://javascript.info/iterable
+http://javascript.info/map-set-weakmap-weakset
 
 
 Important shit!
