@@ -232,6 +232,7 @@ Websites about hacking:
 http://overthewire.org/
 https://picoctf.com/
 https://www.hackthebox.eu/
+https://www.wikihow.com/Use-SSH // How to put SSH working
 
 Hacker Glossary:
 - Black Hat - It is an hacker that violates computer security for maliciousness or for his own personal gain;
