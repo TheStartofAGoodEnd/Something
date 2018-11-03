@@ -150,6 +150,8 @@ String - The textual data in JavaScript is stored in strings.
 	- string.fromCodePoint(90) - It creates a character of the given position;
 	- "string".trim() - It remove any spaces from the beginning and from the end;
 	- "string".repeat() - It repeats the string n times.
+	- string.indexOf("letter to finnd"); - It finds a letter in the string and it gives the position of it;
+	- string.replace("world", "welcome") - It replaces world in the string for welcome;
 Array - It is a collection of ordered data, the difference between array and objects is that an objects don't have positions to the elements. Arrays are objects but different types of objects, so if you want to copy the array you will need to do exactly equal to the objects;
 	- Array sysntaxes - There are two different ways to create an array, let arr = new Array(); and let arr = [];
 	- Every element in the Array have a position that stars in zero;
@@ -185,6 +187,7 @@ Array - It is a collection of ordered data, the difference between array and obj
 	- Array.isArray(value) - It will check if the value is an array or not, if it is it will return true if not false.
 	- object[Symbol.itenerate] - It is used to allow an object to get for...of looped;
 	- let array = Array.from(object); - Array.from(obj) Is used to copy all the properties from the bject into an array. An iterator must have the method named next() that returns an object {done: Boolean, value: any}, here done:true denotes the iteration end, otherwise the value is the next value.
+	- array.sort(); - It will order the elements of array for alphabetically;
 Map - Is a collection of keyed data items, just like an Object, but the main difference is that Map allows keys of any type. To create a map, let map = new Map(). When a map is looped it goes from the order of creation, which is the oposite in relashion to objects;
 	- map.set(key, value) – stores the value by the key;
 	- map.get(key) – returns the value by the key, undefined if key doesn’t exist in map.
