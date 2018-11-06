@@ -52,7 +52,8 @@ Comparisons:
 	- > - Greater sing;
 	- >= - Greater or equal sign;
 	- <= - Less or equal sign;
-	- == or ===- Equal sign;
+	- == - Equal sign that compares only the value;
+	- === - Equal sign that compares the value and the type;
 	- != or !== - Diferent sign.
 alert(); - This shows a message and pauses the script until the user click in the "OK";
 .toUpperCase(); - It is used to put a string in capital letters;
@@ -113,7 +114,7 @@ Reachability - You need to be carefull because if a global variables is connecte
 Symbols - You can create a symbol by typing Symbol("Descripton that you want") it is used to hide porperties and symbols are special because to diferente symbols can have both the same name. Symbol.for() is used to create symbols with the vairable properties so now you can't have diferente symbols with the same name. Symbol.keyFor(variable) it is used to see the descreption of the symbol (needs to be global symbol);
 This - It is used to access the object, a method can use the this keyword. It's usefull because if you clone the object it won't work if you did use the name of the object, so it's better to use this instead. You can use it to create a variable that is common in all the properties of the object (usefull when working with functions);
 Constructor functions - They are used to make your work easier they can simplify for example the object creation as I mentioned earlier but the syntax difference is that they need to have a capital letter in the name of the function, and objects when created they need to come with new Something;
-Primitive - There are 6 types of primitives: string, number, boolean, symbol, null and undefined.
+Primitive - There are 6 types of primitives: string, number, boolean, symbol, null and numbers;
 Numbers - 
 	- Instead of writing a number with 10 zeros we can write 7e10; 
 	- Hexadecimal - It is used a lot to write colours;
