@@ -78,6 +78,10 @@ Function rules:
 	- In a function you can use parameters and it is written like this function doSomething(num, from) {} it is used to when you call the function you can put the parameters and the function will be in the way that you want;
 	- A function can have a return value and that is used in a lot of cases especially in maths and whenever the function gets to the return the function stops running and it will return the value;
 	- To name a function normally it is used verbs and in a way that they can describe the most of the function.
+Scope - It is the accessibility of variables, functions, and objects, basicly is weather you can or can't use a variable because of its reachability; 
+Scope Chain - It is basically an object with a bunch of other objects and as deep in the objects you go the more accessible scopes you will have;
+Lexical Scope - In a neasted group of functions, the inner functions have access to the variables and other resources of their parent scope; 
+Let vs var - The diferrence between each other is the fact when you create a variable inside of a statement it will remain to the global scope but if you create with let it won't do that; 
 Global variable - If you create a variable outside of a function that variable can be acessed in all the code so it is called global variable;
 Function expression - It is a different way to create a function, example, let sayHi = function() { //Code// };
 Arrow function - It is a different way to create a function, example, let func = (arg, arg,...) => expression;
