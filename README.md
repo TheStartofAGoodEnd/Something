@@ -157,7 +157,7 @@ String - The textual data in JavaScript is stored in strings.
 	- "string".repeat() - It repeats the string n times.
 	- string.indexOf("letter to finnd"); - It finds a letter in the string and it gives the position of it;
 	- string.replace("world", "welcome") - It replaces world in the string for welcome;
-Array - It is a collection of ordered data, the difference between array and objects is that an objects don't have positions to the elements. Arrays are objects but different types of objects, so if you want to copy the array you will need to do exactly equal to the objects;
+Array - It is a collection of ordered data, the difference between array and objects is that an objects don't have positions to the elements. Arrays are objects but different types of objects, so if you want to copy the array you will need to do exactly equal to the objects. ;
 	- Array sysntaxes - There are two different ways to create an array, let arr = new Array(); and let arr = [];
 	- Every element in the Array have a position that stars in zero;
 	- You can call an Array element by his position array[1];
@@ -167,7 +167,7 @@ Array - It is a collection of ordered data, the difference between array and obj
 	- Arrays can store elements from any type;
 	- After eatch element in an Array you should put a comma like in objects;
 	- You can remove elements from an Array and this syntax will remove it and show it and then doesn't show in the array anymore .pop();
-	- You can add an element to the end of an Array .push(), this is equal to array[array.length] = ;
+	- You can add an element to the end of an Array .push(), this is equal to array[array.length] = elementYouCanAdd;
 	- You can remove the first element of an Array .shift();
 	- You can add an element to the first position of the array .unshift();
 	- The .push() and the .unshift() and both add multiple new elements;
@@ -214,7 +214,18 @@ Set - Is a collection of values, where each value may occur only once. You can't
 	- Set can be looped with the for...of loop;
 	- set.keys() – returns an iterable object for values,
 	- set.values() – same as set.keys, for compatibility with Map,
-	- set.entries() – returns an iterable object for entries [value, value], exists for compatibility with Map
+	- set.entries() – returns an iterable object for entries [value, value], exists for compatibility with Map;
+	
+	
+Promise - 
+
+
+
+
+Class - It is a way to create objects with predifined configurations and the configurations can be constructors or methods.
+	- class NameOfTheClass { constructor(arguments) {} method() {} }; - Syntax to create a class;
+	- let name = new NameOfTheClass(arguments); - Syntax to create an object with the predifined configurations of the class;
+	
 DO IT, JUST DO IT:
 
 
