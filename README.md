@@ -226,6 +226,20 @@ Class - It is a way to create objects with predifined configurations and the con
 	- class NameOfTheClass { constructor(arguments) {} method() {} }; - Syntax to create a class;
 	- let name = new NameOfTheClass(arguments); - Syntax to create an object with the predifined configurations of the class;
 	
+DOM - Document Object Model is what loads in the web page and it contains all the tags and as depper the tags go as deep the distance from the the "father", which is <HTML>, to its sibblings or grandsons... . 
+	- document.body.innerHTML = ""; - It can be used to change the content of almost all HTML elements;
+	- document.getElementById(id); - Finds elements by id;
+	- document.getElementsByClassName(name); - Find elements by class name;
+	- document.getElementsByTagName(tag); - Find elements by tag name;
+	- getElementsByClassName(); - Finds all elements by class name and returns them as an array;
+	- getElementsByTagName(); - Returns all of the elements of the specified tag name as an array;
+	- cloneNode(); - Clones an element and returns the resulting node;
+	- createElement(); - Creates a new element node;
+	- createTextNode(); - Creates a new text node;
+	- removeChild(node); - Removes an HTML element;
+	- element.replaceChild(newNode, oldNode); - Replaces an HTML element;
+	- setInterval(move, time); - Calls the mode funcion every time miliseconds;
+	- clearInterval(time); - Stops the time and stops the animation to go forever.
 DO IT, JUST DO IT:
 
 
