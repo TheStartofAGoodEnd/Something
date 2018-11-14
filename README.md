@@ -28,6 +28,7 @@ null - That doesn't have any information inside or have an unknown value;
 undefined - Means that any value is assigned to some variable;
 Objects - They are used to store more complex and bigger amounts of data and they aren't primitives;
 typeof x - To see what represent the value inside the variable;
+object to check instanceof property to find - Checkds if the prototype property of a conctructor appers anywhere in the prototype chain of an object;
 String(); - Function that converts any type of data in to string;
 Number(); - Function that numbers that are in strings to numbers(if you do the conversion in certain values you get: null = 0; true = 1; false = 0; "" = 0; "Hello" = NaN);
 If a number is added to a string the number transforms in to a string and they get concatenated ( 1 + "2" = "12");
