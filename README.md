@@ -167,7 +167,7 @@ Array - It is a collection of ordered data, the difference between array and obj
 	- If you alert an array it will show every element from it;
 	- Arrays can store elements from any type;
 	- After eatch element in an Array you should put a comma like in objects;
-	- You can remove elements from an Array and this syntax will remove it and show it and then doesn't show in the array anymore .pop();
+	- You can remove elements from the end of an Array and this syntax will remove it and show it and then doesn't show in the array anymore .pop();
 	- You can add an element to the end of an Array .push(), this is equal to array[array.length] = elementYouCanAdd;
 	- You can remove the first element of an Array .shift();
 	- You can add an element to the first position of the array .unshift();
@@ -193,7 +193,7 @@ Array - It is a collection of ordered data, the difference between array and obj
 	- Array.isArray(value) - It will check if the value is an array or not, if it is it will return true if not false.
 	- object[Symbol.itenerate] - It is used to allow an object to get for...of looped;
 	- let array = Array.from(object); - Array.from(obj) Is used to copy all the properties from the bject into an array. An iterator must have the method named next() that returns an object {done: Boolean, value: any}, here done:true denotes the iteration end, otherwise the value is the next value.
-	- array.sort(); - It will order the elements of array for alphabetically;
+	- array.sort(); - It will order the elements of an array in alphabetic order;
 Map - Is a collection of keyed data items, just like an Object, but the main difference is that Map allows keys of any type. To create a map, let map = new Map(). When a map is looped it goes from the order of creation, which is the oposite in relashion to objects;
 	- map.set(key, value) – stores the value by the key;
 	- map.get(key) – returns the value by the key, undefined if key doesn’t exist in map.
