@@ -156,7 +156,7 @@ String - The textual data in JavaScript is stored in strings.
 	- string.fromCodePoint(90) - It creates a character of the given position;
 	- "string".trim() - It remove any spaces from the beginning and from the end;
 	- "string".repeat() - It repeats the string n times.
-	- string.indexOf("letter to finnd"); - It finds a letter in the string and it gives the position of it;
+	- string.indexOf("letter to finnd", start); - It finds a letter in the string and it gives the position of it and you can use the sencond argument to tell it where do you want it to start searching;
 	- string.replace("world", "welcome") - It replaces world in the string for welcome;
 Array - It is a collection of ordered data, the difference between array and objects is that an objects don't have positions to the elements. Arrays are objects but different types of objects, so if you want to copy the array you will need to do exactly equal to the objects. ;
 	- Array sysntaxes - There are two different ways to create an array, let arr = new Array(); and let arr = [];
@@ -194,6 +194,13 @@ Array - It is a collection of ordered data, the difference between array and obj
 	- object[Symbol.itenerate] - It is used to allow an object to get for...of looped;
 	- let array = Array.from(object); - Array.from(obj) Is used to copy all the properties from the bject into an array. An iterator must have the method named next() that returns an object {done: Boolean, value: any}, here done:true denotes the iteration end, otherwise the value is the next value.
 	- array.sort(); - It will order the elements of an array in alphabetic order;
+	- array.forEach(function); - The forEach() method calls a function (a callback function) once for each array element;
+	- array.filter(function); - The filter() method creates a new array with array elements that passes a test;
+	- array.reduce(function); - The reduce() method runs a function on each array element to produce (reduce it to) a single value. The reduce() method works from left-to-right in the array.The reduce() method does not reduce the original array. The reduce() method can accept an inicial value in the second argument (next to the function);
+	- array.every(function); - The every() method check if all array values pass a test and if it does return true if not false;
+	- array.some(function); - The some() method check if some array values pass a test and if it does return true if not false;
+	- array.find(function); - The find() method returns the value of the first array element that passes a test function; 
+	- array.findIndex(function); - The findIndex() method returns the index of the first array element that passes a test function
 Map - Is a collection of keyed data items, just like an Object, but the main difference is that Map allows keys of any type. To create a map, let map = new Map(). When a map is looped it goes from the order of creation, which is the oposite in relashion to objects;
 	- map.set(key, value) – stores the value by the key;
 	- map.get(key) – returns the value by the key, undefined if key doesn’t exist in map.
