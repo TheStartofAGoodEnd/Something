@@ -282,3 +282,6 @@ Hacker Glossary:
 - Exploit - It is a piece of software that takes advantage of a bug or vulnerability to cause unintended or unanticipated behaviour to occur on computer software, hardware or something electronic;
 - FireWall - A system using hardware, software, or both to prevent unauthorized access to a system or machne;
 - Vulnerability - A weak spot hackers can exploit to gain access to a machine;
+
+Material to programming languages:
+https://drive.google.com/drive/u/0/folders/0ByWO0aO1eI_MN1BEd3VNRUZENkU
