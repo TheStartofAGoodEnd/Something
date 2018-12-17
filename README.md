@@ -182,25 +182,25 @@ Array - It is a collection of ordered data, the difference between array and obj
 	- array.slice(start, end) - It will copy the elements from strings/arrays and will alert them out;
 	- array.concat([element1,...]) - It will add the array as much elements as you want. This only works with objects if you add the following property [Symbol.isConcatSpreadable]: true, with that property now all the properties from the object will be added next to the array;
 	- array.IndexOf(item, from) - It will search for the item and starting in from, if it doesn't found the item it will return -1;
-	- array. lastIndexOf(item, from) - Same as IndexOf but it starts searching from right to left;
+	- array.lastIndexOf(item, from) - Same as IndexOf but it starts searching from right to left;
 	- array.includes(item, from) - Same thing as IndexOf but if it is found it will return true;
 	- array.find(function(element, index, array) { } ) - It will search for an element in the array until it find it, when it does will return true;
 	- array.map(function(item, index, array) {} ) - It calls the function for each element of the array and returns the array of results;
 	- array.sort(); - It will reorder the elements of the array after converting them to strings so it won't be in the corrrect order in numeric terms sometimes;
 	- array.reverse(); - It will reverse the order of the elements from the array;
 	- str.split(', '); - It will split the string in two and alert the part that doesn't have the comma. It is used when you want to alert something that was written by somenone else but you don't know if they will put a comma or not;
-	- array.join(';'); - It will put every element together but separated by a semi colloum;
+	- array.join(';'); - It will put every element together but separated by whatever you want in between;
 	- Array.isArray(value) - It will check if the value is an array or not, if it is it will return true if not false.
 	- object[Symbol.itenerate] - It is used to allow an object to get for...of looped;
 	- let array = Array.from(object); - Array.from(obj) Is used to copy all the properties from the bject into an array. An iterator must have the method named next() that returns an object {done: Boolean, value: any}, here done:true denotes the iteration end, otherwise the value is the next value.
 	- array.sort(); - It will order the elements of an array in alphabetic order;
-	- array.forEach(function); - The forEach() method calls a function (a callback function) once for each array element;
+	- array.forEach(function); - The forEach() method calls a function (a callback function) once for each array element and returns the array element;
 	- array.filter(function); - The filter() method creates a new array with array elements that passes a test;
-	- array.reduce(function); - The reduce() method runs a function on each array element to produce (reduce it to) a single value. The reduce() method works from left-to-right in the array.The reduce() method does not reduce the original array. The reduce() method can accept an inicial value in the second argument (next to the function);
-	- array.every(function); - The every() method check if all array values pass a test and if it does return true if not false;
-	- array.some(function); - The some() method check if some array values pass a test and if it does return true if not false;
+	- array.reduce(function); - The reduce() method runs a function on each array element to produce (reduce it to) a single value. The reduce() method works from left-to-right in the array.The reduce() method does not reduce the original array. The reduce() method can accept an inicial value in the second argument (next to the function). Normally it has two arguments accumulator and currentValue and they take values as accumulator takes the first element and the currentValue takes the sencond and after that accumulator will just store the first some and the currentValue will continue looping throw the values;
+	- array.every(function); - The every() method check if all array values pass a test and if they does return true if not false;
+	- array.some(function); - The some() method check if the array as at least one value that passes the condition of the function and if it does it will return true if not false;
 	- array.find(function); - The find() method returns the value of the first array element that passes a test function; 
-	- array.findIndex(function); - The findIndex() method returns the index of the first array element that passes a test function
+	- array.findIndex(function); - The findIndex() method returns the element position of the first element in the array that passes the function test;
 Map - Is a collection of keyed data items, just like an Object, but the main difference is that Map allows keys of any type. To create a map, let map = new Map(). When a map is looped it goes from the order of creation, which is the oposite in relashion to objects;
 	- map.set(key, value) – stores the value by the key;
 	- map.get(key) – returns the value by the key, undefined if key doesn’t exist in map.
