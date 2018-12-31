@@ -114,7 +114,12 @@ Objects:
 	- If you compare an empty object that is stored in diferente variables it is equal, but if you have two diferente empty objects in diferente variables they are not equal;
 	- To clone an object - let clone = {}; for (let key in user) { clone[key] = obj[key] };
 	- Diferente way off clonning an object - Object.assign(clone, obj); It copys obj properties and values to clone.
-	- Multiple objects - You can create multiple objects with this syntax, function User(name) {this.properties}; let user = new User("Jack");  
+	- Multiple objects - You can create multiple objects with this syntax, function User(name) {this.properties}; let user = new User("Jack");
+	- _property - The '_' it is used when a developer doesn't want the property to be changed, to be more safe
+	- Getters - Getters are methods that get and return the internal properties of an object. But they can do more than just retrieve the value of a property! Syntax, get name() {conditions};
+	- Setters - Setter methods reassign values of existing properties within an object. Syntax, set age(newAge) {reassigning};
+	- Factory Functions - This is a method to create several objects with the same structure but with diferent values for their properties, it is a source of a class. Syntax, function factoryName(properties, ...) { return { properties, ... };
+	- Creating a variable with the value of a property that is in an object. Syntax, const { propertyName } = objectName; 
 Reachability - You need to be carefull because if a global variables is connected with some properties and the properties are all connected with themselfs, if you remove the main connection everything stops working;
 Symbols - You can create a symbol by typing Symbol("Descripton that you want") it is used to hide porperties and symbols are special because to diferente symbols can have both the same name. Symbol.for() is used to create symbols with the vairable properties so now you can't have diferente symbols with the same name. Symbol.keyFor(variable) it is used to see the descreption of the symbol (needs to be global symbol);
 This - It is used to access the object, a method can use the this keyword. It's usefull because if you clone the object it won't work if you did use the name of the object, so it's better to use this instead. You can use it to create a variable that is common in all the properties of the object (usefull when working with functions);
